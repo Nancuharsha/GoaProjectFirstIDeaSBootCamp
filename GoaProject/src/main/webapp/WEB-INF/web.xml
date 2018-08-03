@@ -1,0 +1,58 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServletForEmployee</servlet-name>
+  	<display-name>ServletForEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.ideas.goapicnic.servlet.ServletForEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletForEachEmployee</servlet-name>
+  	<display-name>ServletForEachEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.ideas.goapicnic.servlet.ServletForEachEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletForUpdateOrInsertPreferences</servlet-name>
+  	<display-name>ServletForUpdateOrInsertPreferences</display-name>
+  	<description></description>
+  	<servlet-class>com.ideas.goapicnic.servlet.ServletForUpdateOrInsertPreferences</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletCopyOfEachEmployee</servlet-name>
+  	<display-name>ServletCopyOfEachEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.ideas.goapicnic.servlet.ServletCopyOfEachEmployee</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServletCopyOfEmployee</servlet-name>
+  	<display-name>ServletCopyOfEmployee</display-name>
+  	<description></description>
+  	<servlet-class>com.ideas.goapicnic.servlet.ServletCopyOfEmployee</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServletForEmployee</servlet-name>
+  	<url-pattern>/employees</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletForEachEmployee</servlet-name>
+  	<url-pattern>/employeeDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletForUpdateOrInsertPreferences</servlet-name>
+  	<url-pattern>/addPreferences</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletCopyOfEachEmployee</servlet-name>
+  	<url-pattern>/ServletCopyOfEachEmployee</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServletCopyOfEmployee</servlet-name>
+  	<url-pattern>/ServletCopyOfEmployee</url-pattern>
+  </servlet-mapping>
+
+</web-app>
