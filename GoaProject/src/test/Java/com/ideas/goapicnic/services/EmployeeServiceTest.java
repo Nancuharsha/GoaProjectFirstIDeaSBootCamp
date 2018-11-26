@@ -30,7 +30,7 @@ public class EmployeeServiceTest {
 
 	}
 
-	// @Test
+	 @Test
 	public void shouldEmpInsertIntoDB() throws SQLException, ExceptionHandingClass {
 		empServiceObj.insertIntoDBEmpTable(empObj);
 		Employee searchedObjById = empServiceObj.getById(empObj.getEmpCompId());
@@ -44,7 +44,7 @@ public class EmployeeServiceTest {
 
 	}
 
-	// @Test
+	 @Test
 	public void shouldEmpUpdateIntoDB() throws SQLException {
 		empServiceObj.insertIntoDBEmpTable(empObj);
 		empServiceObj.updateEmpObjIntoDB(empObj);
